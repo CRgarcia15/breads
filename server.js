@@ -8,6 +8,7 @@ const app = express()
 app.use(express.static('public')) 
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
+app.use(express.urlencoded({extended: true}))
 app.engine('jsx', require('express-react-views').createEngine())
 
 
