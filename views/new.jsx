@@ -1,5 +1,5 @@
 const React = require('react')
-const Default = rquire('./layouts/Default')
+const Default = require('./layouts/Default')
 
 function New () {
     return (
