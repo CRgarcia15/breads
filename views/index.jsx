@@ -1,6 +1,5 @@
-const { title } = require('process')
 const React = require('react')
-const Default = require('./layouts/Default')
+const Default = require('./layouts/default')
 
 function Index ({breads, bakers, title}) {
     return (
