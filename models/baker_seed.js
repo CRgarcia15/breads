@@ -28,5 +28,5 @@ module.exports = [
       name: 'Rachel',
       startDate: '1998-09-24',
       bio: 'Is NOT a shoe. Occasionally a fan of lobsters.'
-    },
+    }
   ]

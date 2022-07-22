@@ -26,5 +26,8 @@
     "mongoose": "^6.4.4",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
+  },
+  "nodemonConfig": {
+    "ext": "js,html,json,jsx,mjs"
   }
 }
